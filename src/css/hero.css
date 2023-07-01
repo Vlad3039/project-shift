@@ -1,0 +1,184 @@
+.hero {
+    width: 375px;
+height: 812px;
+flex-shrink: 0;
+background-color: var(--green-color);
+}
+
+.hero-list {
+    position: relative;
+}
+
+.reviews{
+    color: var(--title-color);
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+}
+
+.hero-text{
+    max-width: 335px;
+    color: #FFF;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 40px;
+font-weight: 500;
+line-height: 1.1;
+letter-spacing: -1.6px;
+text-transform: uppercase;
+margin-bottom: 14px;
+margin-left: 20px;
+
+}
+
+.vegetables{
+    font-style: italic;
+    color: var(--lite-green-color);
+}
+
+.reviews:first-child{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+margin-bottom: 2px;
+}
+
+.reviews:last-child{
+    font-size: 8px;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero-pfoto{
+ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.hero-pfoto:not(:first-child){
+    position: absolute;
+
+}
+
+.hero-pfoto:nth-child(2){
+    left: 28px;
+}
+
+.hero-pfoto:nth-child(3){
+    left: 56px;
+}
+
+.hero-pfoto:nth-child(4){
+    left: 84px;
+
+}
+
+.hero-box {
+    
+}
+
+.hero-tex {
+    display: flex;
+width: 335px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 40px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: -1.6px;
+text-transform: uppercase;
+margin-bottom: 14px;
+} 
+
+.paragraf {
+    width: 335px;
+    color: #FFF;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.56px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+.hero-button {
+    width: 68px;
+height: 68px;
+flex-shrink: 0;
+border-radius: 50%;
+border: none;
+background: #FAF3E7;
+margin-left: 20px;
+}
+.shop-now {
+    color: #FFF;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: -0.4px;
+    display: flex;
+    justify-content: flex-end;
+}
+.hero-button-tex {
+    color: #141414;
+text-align: center;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 10px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: -0.4px;
+text-transform: uppercase;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.shop-non{
+    color: #FC8A11;
+text-align: center;
+text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.1;
+letter-spacing: -0.56px;
+text-transform: uppercase;
+transform: rotate(45deg);
+}
+
+
+
+.products{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+@media screen and (min-width 320px ){
+max-width : 375px;
+.hero {
+    width: 375px;
+height: 812px;
+flex-shrink: 0;
+background-color: #A1C487;
+}
+}
