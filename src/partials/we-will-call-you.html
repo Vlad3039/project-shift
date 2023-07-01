@@ -8,18 +8,42 @@
         today and start enjoying the best that nature has to offer!
       </p>
       <form class="recall-form">
-        <input
-          class="recall-input"
-          type="tel"
-          name="phone"
-          placeholder="+380()"
-          pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-          required
-          title="+380 (97) 000-00-00"
-        />
+        <label>
+          <input
+            class="recall-input"
+            type="tel"
+            name="phone"
+            placeholder="+380()"
+            pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+            required
+            title="+380 (97) 000-00-00"
+        /></label>
         <button class="btn-recall" type="submit">Recall</button>
       </form>
     </div>
-    <div class="recall-img"></div>
+    <picture>
+      <source
+        srcset="
+          ./img/section_recall/recall_desk_1x.jpg 1x,
+          ./img/section_recall/recall_desk_2x.jpg 2x
+        "
+        media="(min-width: 1280px)" />
+      <source
+        srcset="
+          ./img/section_recall/recall_tab_1x.jpg 1x,
+          ./img/section_recall/recall_tab_2x.jpg 2x
+        "
+        media="(min-width: 768px)" />
+      <source
+        srcset="
+          ./img/section_recall/recall_mob_1x.jpg 1x,
+          ./img/section_recall/recall_mob_2x.jpg 2x
+        "
+        media="(min-width: 320px)" />
+      <img
+        src="./img/section_recall/recall_tab_1x.jpg"
+        alt="Girl with vegetables"
+        width="704"
+    /></picture>
   </div>
 </section>
