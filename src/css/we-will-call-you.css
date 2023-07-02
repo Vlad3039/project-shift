@@ -1,7 +1,7 @@
 /* MOB STYLES */
 
 .recall-container {
-  margin: 80px auto;
+  padding: 80px 20px;
   width: 100%;
 }
 
@@ -23,9 +23,11 @@
   text-transform: uppercase;
   max-width: 310px;
   margin-bottom: 20px;
+  text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
 }
 .recall-item {
   color: var(--title-color);
+  text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.56px;
@@ -74,8 +76,7 @@ label {
 
 .btn-recall {
   position: absolute;
-  top: 0;
-  right: 0;
+  right: -1px;
   height: 48px;
 
   border: none;
@@ -144,13 +145,9 @@ label {
 
 /* TABLET STYLES */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
   .recall-container {
-    margin-top: 100px;
-    margin-bottom: 173px;
+    max-width: 768px;
+    padding: 100px 32px 173px 32px;
   }
 
   .recal-title {
@@ -193,14 +190,15 @@ label {
 
 /* DEKSTOP STYLES */
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 124px auto;
-  }
   .recall-container {
+    max-width: 1280px;
+    padding-top: 124px;
+    padding-bottom: 124px;
+
     display: flex;
     column-gap: 77px;
   }
+
   .recall-content {
     max-width: 614px;
     height: 340px;
