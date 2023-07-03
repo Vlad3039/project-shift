@@ -1,4 +1,4 @@
-@media screen and (min-width: 375px) {
+
     .container {
         max-width: 375px;
         margin: 0 auto;
@@ -50,7 +50,6 @@
       .mobile-menu-open_icon {
         stroke: var(--green-color);
       }
-}
 
 /*  ------- T A B L E T -------- */
 @media screen and (min-width: 768px) {
@@ -67,8 +66,8 @@
       display: flex;
       gap: 14px;
   }
-}
 
+}
 
 /* -------D E S K T O P---------- */
 @media screen and (min-width: 1280px) {
