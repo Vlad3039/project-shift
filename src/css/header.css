@@ -113,10 +113,7 @@
     background-color: transparent;
   }
 
-  .mobile-menu-buy_icon:hover,
-  .mobile-menu-buy_icon:focus{
-    color: var(--green-color);
-  }
+  
   .mobile-menu-buy_icon{
    fill: transparent;
    stroke: var(--title-color);
