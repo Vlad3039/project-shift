@@ -130,6 +130,10 @@ label {
 }
 
 @media screen and (min-width: 375px) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
   .recall-form {
     max-width: 335px;
   }

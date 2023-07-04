@@ -92,7 +92,7 @@
      color: var(--green-color);
    }
 
-  .logo_icon {
+  .logo {
     margin-left: 86px;
    }
 
@@ -132,7 +132,7 @@
     gap: 20px;
 }
 
-.logo_icon {
+.logo {
   margin-left: 308px;
  }
 }
