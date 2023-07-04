@@ -9,7 +9,7 @@
 /* how it works */
 @import url('');
 /* vegetables */
-@import url('');
+@import url('./vegetables.css');
 /* we will call you */
 @import url('./we-will-call-you.css');
 /* footer */
@@ -19,4 +19,4 @@
 /* menu */
 @import url('');
 /* scroll btn */
-@import url('');
+@import url('./button-up.css');
