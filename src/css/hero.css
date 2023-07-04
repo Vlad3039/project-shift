@@ -1,4 +1,7 @@
-.section-hero{
+img {
+    height: auto;
+  }
+  .section-hero{
     background-color: var(--green-color) ;
 }
 

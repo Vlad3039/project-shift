@@ -1,3 +1,6 @@
+img {
+  height: auto;
+}
 .footer {
   width: 100%;
   background-color: var(--lite-green-color);
